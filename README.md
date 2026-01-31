@@ -14,18 +14,13 @@ Prédire la survie des passagers du Titanic
 - **IsAlone** : FamilySize == 1
 
 ## Modèles testés
-1. Logistic Regression - Accuracy: 
-2. Random Forest - Accuracy: 
-3. SVM - Accuracy: 
-
+1. Logistic Regression - Cv_score: 0.822
+2. Random Forest - Cv_score:  0.793
+3. SVM - Cv_score: 0.829 
+(il s'agit des scores moyens)
 ## Meilleur modèle : 
-
-
-## Résultats :
-- Accuracy: 
-- Precision: 
-- Recall: 
-
+SVM
+score de validation : 0.821
 ## Comment utiliser
 ```bash
 # Installer les dépendances
@@ -39,9 +34,9 @@ jupyter notebook notebooks/01_exploration.ipynb
 
 ###  **`requirements.txt` - Dépendances Python**
 ```
-pandas==1.5.3
-numpy==1.24.3
-scikit-learn==1.2.2
-matplotlib==3.7.1
-seaborn==0.12.2
+matplotlib==3.10.8
+pandas==3.0.0
+scikit_learn==1.8.0
+seaborn==0.13.2
 jupyter==1.0.0
+
